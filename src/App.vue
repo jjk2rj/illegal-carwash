@@ -45,7 +45,7 @@
       </v-btn>
     </v-toolbar>
     <v-content>
-      <HelloWorld/>
+      <google-map/>
     </v-content>
     <v-navigation-drawer
       temporary
@@ -70,12 +70,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import GoogleMap from './components/GoogleMap'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GoogleMap
   },
   data () {
     return {
